@@ -1,0 +1,132 @@
+/*Formatting for Default Style for reused elements*/
+
+/*Text for Product*/
+.product {
+    display: flex;
+    align-items: center; 
+	border-style: solid;
+	text-align:center;
+	text-anchor:center;
+	font-size:36;
+}
+
+/*Image for product*/
+.product img {
+    width: 40%; 
+    height: auto;
+	border-style: double;
+	border-width:5px;
+	justify-content:left;
+}
+
+/*Unit Name Formatting*/
+#Unit {
+	font-size:48px;
+	justify-content: center;
+	text-align: center;
+	font-weight:bold;
+	border-style:outset;
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+/*Unit Title Formatting*/
+#title {
+	font-size: 30px;
+	justify-content:center;
+	text-align:center;
+	font-style:italic;
+	border-style:outset;
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+/*Table*/
+table {
+	font-size:24px;
+	text-align:center;
+	justify-content:center;
+}
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial
+}
+
+/*Navbar links*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/*Navbar image - logo*/
+.navbar img {
+	width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+/*Dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/*Dropdown button*/
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+/*Background colour when you hover over the Navbar item*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+/*Formatting for dropdown items when revealed*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+
+}
+
+/*Formatting for dropdown links*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*Formatting for dropdown when hovered*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/*Formatting for dropdown conent when hovered*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*splits the navigation bar so the checkout is separate*/
+.navbar a.split {
+  float: right;
+  background-color: blue;
+  color: white;
+}	
+
